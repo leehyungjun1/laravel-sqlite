@@ -19,7 +19,7 @@
                 <textarea name="content" class="form-control" placeholder="내용" rows="5" required></textarea>
             </div>
             <button type="submit" class="btn btn-success">저장</button>
-            <a href="{{ route('journals.index') }}" class="btn btn-secondary">저장</button>
+            <a href="{{ route('journals.index') }}" class="btn btn-secondary">목록</a>
         </form>
     </div>
 @endsection
